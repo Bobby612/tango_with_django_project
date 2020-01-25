@@ -6,6 +6,7 @@ def index(request):
 <a href='/rango/about/'>About</a>")
 
 def about(request):
-    return HttpResponse("Rango says here is the about page")
+    return HttpResponse("Rango says here is the about page \
+<a href='/rango/'>Index</a>")
 
 
